@@ -1,0 +1,55 @@
+[Mon Feb 16 14:35:52 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Mon Feb 16 14:36:23 2026] [::1]:46118 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46118 [200]: GET /
+[Mon Feb 16 14:36:23 2026] [::1]:46118 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46134 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46144 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46134 [200]: GET /assets/css/style.css
+[Mon Feb 16 14:36:23 2026] [::1]:46144 [200]: GET /assets/js/app.js
+[Mon Feb 16 14:36:23 2026] [::1]:46134 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46144 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46148 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46148 [200]: GET /sw.js
+[Mon Feb 16 14:36:23 2026] [::1]:46148 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46162 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46162 [401]: POST /api/poll.php
+[Mon Feb 16 14:36:23 2026] [::1]:46162 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46178 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46190 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46196 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:46178 [200]: GET /
+[Mon Feb 16 14:36:23 2026] [::1]:46178 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46190 [200]: GET /index.php
+[Mon Feb 16 14:36:23 2026] [::1]:46190 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:46196 [200]: GET /assets/css/style.css
+[Mon Feb 16 14:36:23 2026] [::1]:46196 Closing
+[Mon Feb 16 14:36:23 2026] [::1]:54762 Accepted
+[Mon Feb 16 14:36:23 2026] [::1]:54762 [200]: GET /assets/js/app.js
+[Mon Feb 16 14:36:23 2026] [::1]:54762 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37890 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37890 [200]: GET /
+[Mon Feb 16 14:38:48 2026] [::1]:37890 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37896 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37906 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37896 [200]: GET /assets/css/style.css
+[Mon Feb 16 14:38:48 2026] [::1]:37906 [200]: GET /assets/js/app.js
+[Mon Feb 16 14:38:48 2026] [::1]:37896 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37906 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37914 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37914 [200]: GET /sw.js
+[Mon Feb 16 14:38:48 2026] [::1]:37914 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37928 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37940 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37956 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37968 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37928 [500]: POST /api/auth.php
+[Mon Feb 16 14:38:48 2026] [::1]:37928 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37940 [200]: GET /
+[Mon Feb 16 14:38:48 2026] [::1]:37940 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37956 [200]: GET /index.php
+[Mon Feb 16 14:38:48 2026] [::1]:37956 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37968 [200]: GET /assets/css/style.css
+[Mon Feb 16 14:38:48 2026] [::1]:37968 Closing
+[Mon Feb 16 14:38:48 2026] [::1]:37974 Accepted
+[Mon Feb 16 14:38:48 2026] [::1]:37974 [200]: GET /assets/js/app.js
+[Mon Feb 16 14:38:48 2026] [::1]:37974 Closing
