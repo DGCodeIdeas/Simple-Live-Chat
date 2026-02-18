@@ -2,10 +2,23 @@
 Options -Indexes
 
 # Prevent access to sensitive files
-<FilesMatch "^\.|\.(sql|log|sh|bak)$">
+<FilesMatch "^\.|\.(sql|log|sh|bak|json|meta)$">
     Order allow,deny
     Deny from all
 </FilesMatch>
+
+# Deny access to app, src, and storage directories
+RewriteRule ^(app|src|storage|vendor)/ - [F,L]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect all requests to index.php if they aren't real files/dirs
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
 
 # PHP settings (if allowed by host)
 <IfModule mod_php8.c>
